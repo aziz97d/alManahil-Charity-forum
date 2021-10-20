@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lelang Ulama Parishad</title>
+    <link rel="stylesheet" href="./style/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <main class="container-dc container-fluid">
+      <!-- Header -->
+      <header class="header-dc">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand bangla-heading-font" style="color: #099418">
+              ১৩নং লেলাং ইউনিয়ন <br />
+              কওমি উলামা পরিষদ
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a
+                    class="nav-item-dc bangla-text-font active"
+                    aria-current="page"
+                    href="#"
+                    >হোম</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-item-dc bangla-text-font" href="#"
+                    >বিল পরিশোধ</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-item-dc bangla-text-font" href="#"
+                    >আমাদের সম্পর্কে</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- <div class="d-flex align-items-center">
+          <div class="col-md-6 d-flex flex-column align-items-center">
+            <img class="w-25" src="./images/logo.jpg" alt="" />
+            <div>
+              <h5 class="my-3 arabic-heading-font" style="color: #ffc300">
+                جمعيةالعلماء القو مية، الا تحاد ١٣ ليلانغ
+              </h5>
+              <h5 class="bangla-heading-font" style="color: #099418">
+                ১৩নং লেলাং ইউনিয়ন কওমি উলামা পরিষদ
+              </h5>
+            </div>
+          </div>
+          <img class="col-md-6" src="./images/header-background.jpg" alt="" />
+        </div> -->
+        <img src="./images/header-background 1.jpg" class="w-100" alt="" />
+      </header>
+      <!-- Header -->
+
+      <div class="row p-2 d-flex justify-content-center">
+        <div class="col-12 col-md-6 p-3 border border-primary">
+          <div class="d-flex flex-column align-items-center">
+            <h5 class="text-success bangla-heading-font">
+              সদস্য নিবন্ধন আবেদন ফরম
+            </h5>
+            <p
+              class="my-4 bangla-text-font"
+              style="line-height: 1.5rem; font-weight: 500; text-align: justify"
+            >
+              জনাব, আমি মহান আল্লাহর উপর পূর্ণ আস্থা রেখে এই মর্মে স্বজ্ঞানে
+              অঙ্গিকার করছি যে, ১৩নং লেলাং ইউনিয়ন কওমি উলামা পরিষদের লক্ষ্য,
+              উদ্দেশ্য ও যাবতীয় নিয়মকানুন মেনে চলতে বাধ্য থাকব। শরীয়ত পরিপন্থি,
+              দেশ ও পরিষদের স্বার্থ বিরোধী কোন কর্মকান্ডে জড়িত থাকবনা। অন্যথায়
+              পরিষদ কতৃক যে কোন সিদ্ধান্ত মেনে নিতে বাধ্য থাকব। আমি স্বজ্ঞানে
+              পরিষদের সদস্য হওয়ার আবেদন করছি।
+            </p>
+          </div>
+          <form class="needs-validation" novalidate>
+            <div class="row">
+              <h5
+                class="
+                  text-success
+                  d-flex
+                  my-3
+                  justify-content-center
+                  bangla-text-font
+                "
+              >
+                ব্যাক্তিগত তথ্য
+              </h5>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="name-dc" class="bangla-text-font"> নাম</label>
+                <input
+                  type="text"
+                  class="form-control bangla-text-font"
+                  id="name-dc"
+                  required
+                />
+                <div class="invalid-feedback">Please provide a valid city.</div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="father-name-dc" class="bangla-text-font"
+                  >পিতার নাম</label
+                >
+                <input
+                  type="text"
+                  class="form-control bangla-text-font"
+                  id="father-name-dc"
+                  required
+                />
+                <div class="invalid-feedback">Please provide a valid city.</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="father-name-dc" class="bangla-text-font"
+                  >মোবাইল নাম্বার</label
+                >
+                <input
+                  type="text"
+                  class="form-control bangla-text-font"
+                  id="father-name-dc"
+                  required
+                />
+                <div class="invalid-feedback">Please provide a valid city.</div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="father-name-dc" class="bangla-text-font"
+                  >জাতিয় পরিচয় পত্র নাম্বার</label
+                >
+                <input
+                  type="text"
+                  class="form-control bangla-text-font"
+                  id="father-name-dc"
+                  required
+                />
+                <div class="invalid-feedback">Please provide a valid city.</div>
+              </div>
+            </div>
+            <div class="col-md-12 mb-3">
+              <label for="father-name-dc" class="bangla-text-font"
+                >আপনার ছবি</label
+              >
+              <input
+                type="file"
+                class="form-control bangla-text-font"
+                id="father-name-dc"
+                required
+              />
+              <div class="invalid-feedback">Please provide a valid city.</div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="father-name-dc" class="bangla-text-font"
+                  >জন্ম তারিখ</label
+                >
+                <input
+                  type="date"
+                  class="form-control bangla-text-font"
+                  id="father-name-dc"
+                  required
+                />
+                <div class="invalid-feedback">Please provide a valid city.</div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="father-name-dc" class="bangla-text-font"
+                  >রক্তের গ্রুফ</label
+                >
+                <input
+                  type="text"
+                  class="form-control bangla-text-font"
+                  id="father-name-dc"
+                  required
+                />
+                <div class="invalid-feedback">Please provide a valid city.</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="father-name-dc" class="bangla-text-font"
+                  >পেশা</label
+                >
+                <input
+                  type="text"
+                  class="form-control bangla-text-font"
+                  id="father-name-dc"
+                  required
+                />
+                <div class="invalid-feedback">Please provide a valid city.</div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="father-name-dc" class="bangla-text-font"
+                  >পোষ্ট অফিস</label
+                >
+                <input
+                  type="text"
+                  class="form-control bangla-text-font"
+                  id="father-name-dc"
+                  required
+                />
+                <div class="invalid-feedback">Please provide a valid city.</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-9 mb-3">
+                <label for="father-name-dc" class="bangla-text-font"
+                  >গ্রাম</label
+                >
+                <input
+                  type="text"
+                  class="form-control bangla-text-font"
+                  id="father-name-dc"
+                  required
+                />
+                <div class="invalid-feedback">Please provide a valid city.</div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="father-name-dc" class="bangla-text-font"
+                  >ওয়ার্ড নং</label
+                >
+                <input
+                  type="text"
+                  class="form-control bangla-text-font"
+                  id="father-name-dc"
+                  required
+                />
+                <div class="invalid-feedback">Please provide a valid city.</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <button class="form-control btn btn-success">
+                  <span class="bangla-text-font">আবেদন সম্পন করুন</span>
+                </button>
+              </div>
+              <div class="col-md-6 mb-3">
+                <button class="form-control btn btn-outline-warning">
+                  <span class="bangla-text-font">বাদ দিন</span>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <footer>
+        <p>Developed by <a href="#">Abdul Aziz</a></p>
+      </footer>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
